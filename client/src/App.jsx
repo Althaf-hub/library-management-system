@@ -22,6 +22,9 @@ export default function App() {
           <Route path="/transactions" element={<Transactions />} />
         </Routes>
       </main>
+      <footer className="seed-footer">
+        <p>🌱 Note: The data currently displayed is seed data for demonstration purposes.</p>
+      </footer>
     </>
   );
 }
